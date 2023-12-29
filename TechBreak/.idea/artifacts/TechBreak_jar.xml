@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TechBreak:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TechBreak_jar</output-path>
+    <root id="archive" name="TechBreak.jar">
+      <element id="module-output" name="TechBreak" />
+    </root>
+  </artifact>
+</component>

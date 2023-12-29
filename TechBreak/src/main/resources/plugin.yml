@@ -1,0 +1,18 @@
+name: TechBreak
+version: '1.0'
+main: me.zdridox.techbreak.TechBreak
+api-version: '1.20'
+authors: [zdridox]
+description: Blocks players from joining unless they have permission.
+website: zdridox.itch.io
+permissions:
+  TechBreak.join:
+    default: op
+  TechBreak.use:
+    default: op
+commands:
+  techBreak:
+    description: Przerwa Techniczna.
+    permission: TechBreak.use
+    usage: "/techBreak [Powod]"
+    permission-message: "no cie cos boli ze przerwe zrobisz synek"
